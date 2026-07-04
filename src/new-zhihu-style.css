@@ -114,6 +114,10 @@
     width: auto !important;
 }
 
+/* 专栏页面的浮动侧栏 */
+.css-1bcbfml {
+    display: none !important;
+}
 
 /*回答内容和文章内容*/
 .origin_image {
