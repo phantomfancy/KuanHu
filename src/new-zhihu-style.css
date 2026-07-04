@@ -17,7 +17,9 @@
     width: var(--width-main-column) !important;
 }
 
-/* .Question-sideColumn {} */
+.Question-sideColumn {
+    display: none !important;
+}
 
 .QuestionHeader-content {
     width: var(--width-container) !important;
@@ -104,10 +106,6 @@
 
 .Post-Row-Content .Post-Row-Content-right {
     display: none;
-}
-
-.Question-sideColumn {
-    display: none !important;
 }
 
 .Post-Row-Content .Post-Row-Content-left {
