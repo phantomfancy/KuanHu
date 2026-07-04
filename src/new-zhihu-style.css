@@ -19,18 +19,7 @@
 
 /* .Question-sideColumn {} */
 
-.QuestionHeader-content {
-    width: var(--width-container) !important;
-    padding-left: calc((100vw - var(--width-container))/2) !important;
-}
-
-.QuestionHeader-main {
-    width: var(--width-main-column) !important;
-}
-
-.QuestionHeader-footer-inner {
-    width: var(--width-container) !important;
-}
+/* 问答页面banner使用默认宽度，避免内容宽度调节时标题栏错位 */
 
 
 /*搜索结果页面*/
