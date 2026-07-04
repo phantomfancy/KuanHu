@@ -112,6 +112,36 @@
     width: auto !important;
 }
 
+/* 关于作者 */
+.Card.AuthorCard {
+    display: none !important;
+}
+
+/* 侧栏推荐 */
+div[data-smart-sticky-anchor="true"] {
+    display: none !important;
+}
+
+/* 侧栏推广 */
+.Pc-card.Card {
+    display: none !important;
+}
+
+/* 主栏推广 */
+[class^="pc-article-answer"],
+[class*=" pc-article-answer"] {
+    display: none !important;
+}
+
+/* “关于知乎”脚注 */
+[role^="contentinfo"] {
+    display: none;
+}
+
+/* 右下角登录浮窗 */
+.css-woosw9 {
+    display: none;
+}
 
 /*回答内容和文章内容*/
 .origin_image {
