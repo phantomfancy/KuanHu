@@ -96,6 +96,7 @@
 .Post-NormalMain>div,
 .Post-NormalSub>div {
     width: var(--width-main-column) !important;
+    background-color: var(--GBK99A, #fff) !important;
 }
 
 .Post-SideActions {
@@ -114,6 +115,34 @@
     width: auto !important;
 }
 
+/* 专栏页面的浮动侧栏 */
+.css-1bcbfml {
+    display: none !important;
+}
+
+/* 专栏页面-主页面 */
+.css-pi1fiy {
+    width: var(--width-main-column) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    gap: 0rem !important;
+    grid-template-columns: minmax(0, var(--width-main-column)) !important;
+}
+
+/* 专栏页面-主页面 边栏页面 */
+.css-pi1fiy .css-1bcbfml {
+    display: none !important;
+    width: 0rem !important;
+    min-width: 0rem !important;
+    max-width: 0rem !important;
+    flex: 0 0 0rem !important;
+}
+
+/* 专栏页面-文章 */
+.css-yq5nsh {
+    width: var(--width-main-column) !important;
+    background-color: var(--GBK99A, #fff) !important;
+}
 
 /*回答内容和文章内容*/
 .origin_image {
