@@ -17,7 +17,9 @@
     width: var(--width-main-column) !important;
 }
 
-/* .Question-sideColumn {} */
+.Question-sideColumn {
+    display: none !important;
+}
 
 /* 问答页面banner使用默认宽度，避免内容宽度调节时标题栏错位 */
 
@@ -96,10 +98,6 @@
     display: none;
 }
 
-.css-1qyytj7 {
-    display: none;
-}
-
 .Post-Row-Content .Post-Row-Content-left {
     width: auto !important;
 }
@@ -131,6 +129,37 @@
 .css-yq5nsh {
     width: var(--width-main-column) !important;
     background-color: var(--GBK99A, #fff) !important;
+}
+
+/* 关于作者 */
+.Card.AuthorCard {
+    display: none !important;
+}
+
+/* 侧栏推荐 */
+div[data-smart-sticky-anchor="true"] {
+    display: none !important;
+}
+
+/* 侧栏推广 */
+.Pc-card.Card {
+    display: none !important;
+}
+
+/* 主栏推广 */
+[class^="pc-article-answer"],
+[class*=" pc-article-answer"] {
+    display: none !important;
+}
+
+/* “关于知乎”脚注 */
+[role^="contentinfo"] {
+    display: none;
+}
+
+/* 右下角登录浮窗 */
+.css-woosw9 {
+    display: none;
 }
 
 /*回答内容和文章内容*/
